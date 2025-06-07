@@ -20,18 +20,3 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff"
 }
-self.addEventListener('fetch', function(event) {
-    // [...]
-      return fetch(event.request).catch(function(error) {
-        return caches.match(offline_page).then(function(response) {
-          return response;
-        });
-      });
-    })
-  );
-});
-const offline_page = '/offline.html';
-const filesToCache = [
-  // all your files...
-  offline_page
-];
