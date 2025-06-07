@@ -1,0 +1,22 @@
+{
+    "name": "Datacat",
+    "short_name": "Datacat",
+    "description": "Datacat database",
+    "icons": [
+        {
+            "src": "datacat logo.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        // ...
+        {
+            "src": "datacat logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff"
+}
