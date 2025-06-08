@@ -18,6 +18,6 @@
     ],
     "start_url": "https://hedgehogparrotdev.github.io/datacat/",
     "display": "standalone",
-    "theme_color": "#ffffff",
-    "background_color": "#ffa500"
+    "theme_color": "#ffa500",
+    "background_color": "#ADD8E6"
 }
