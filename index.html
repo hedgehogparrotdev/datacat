@@ -19,7 +19,7 @@
     </a>
 
     <a href="https://hedgehogparrotdev.github.io/fetch_access_website_for_Datacat_3994_45kkkfsdai249_active/PTBeta.zip" download>
-        <button onclick="sendNotification()">Psycho time beta Download</button>
+        <button onclick="window.alert("Use instructions")">Psycho time beta Download</button>
         
 
           <a href="https://hedgehogparrotdev.github.io/androidappinnioasisg1/">
@@ -37,29 +37,4 @@
         <button>Email Developers</button>
     </a>
 
-       <script>
-    function sendNotification() {
-      if (!("Notification" in window)) {
-        alert("This browser does not support desktop notification.");
-        return;
-      }
-
-      if (Notification.permission === "granted") {
-        new Notification("Hello!", {
-          body: "Follow the instructions in the README.txt file to operate.",
-          icon: "dclogo.png"
-        });
-      } else if (Notification.permission !== "denied") {
-        Notification.requestPermission().then(permission => {
-          if (permission === "granted") {
-            new Notification("Permission Granted!", {
-              body: "You’ll now receive notifications.",
-              icon: "dclogo.png"
-            });
-          }
-        });
-      }
-    }
-  </script>
-</body>
-</html>
+       </body>
